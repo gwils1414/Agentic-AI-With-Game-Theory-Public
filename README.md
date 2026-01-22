@@ -157,7 +157,7 @@ The **state** of the graph is a very important concept to understand. Each node 
 
 When looking at the graph, you may notice that each node takes in a *GraphRunContext[State, Deps]* , and at each node, ChatState is passed in , and the function produces a new version of ChatState. Inside of the nodes, based on the nodes we update the attributes of ChatState. For example, the messages attribute tracks all of the models responses that happen in each individual model call, which is represented by something along the lines of *ctx.state.messages.append(output.new_messages())*.
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/8f627a9a9e9432595e65469e6e34deb3aa39174d/utilities/Types.py#L22-L45
+https://github.com/gwils1414/Agentic-AI-With-Game-Theory-Public/blob/6b67508635dd7ae00e262f35f2710e4f23ae148c/utilities/Types.py#L22-L45
 
 ## Types
 
