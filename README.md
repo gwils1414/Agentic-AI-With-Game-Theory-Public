@@ -139,7 +139,7 @@ https://github.com/gwils1414/Agentic-AI-With-Game-Theory-Public/blob/383d751cfcb
 <br>
 Each agent operated on a specific set of instructions found here, [*Instructions.py*](utilities/Instructions.py), below is a small snippet, not inclusive of the entire interrogator instruction set.
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/a613cf54dd55a5067e97bcf67873d9e2c1ad4f9b/utilities/Instructions.py#L53-L84
+https://github.com/gwils1414/Agentic-AI-With-Game-Theory-Public/blob/2875bc3945f8cf5ede52257a2569ab3f727504db/utilities/Instructions.py#L53-L64
 
 NOTES:
 - Each prisoner must be questioned atleast once
