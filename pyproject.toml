@@ -1,0 +1,19 @@
+[project]
+name = "agentic-ai-with-game-theory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dataclasses>=0.8",
+    "dotenv>=0.9.9",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "load-dotenv>=0.1.0",
+    "logfire>=4.14.2",
+    "nashpy>=0.0.43",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "pydantic-ai>=1.16.0",
+    "rich>=14.2.0",
+]
