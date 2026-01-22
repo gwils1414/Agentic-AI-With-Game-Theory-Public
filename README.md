@@ -1,5 +1,7 @@
 # Agentic-AI-with-Game-Theory
 
+--NOTE: This is uploaded from a zip download of the original repo in order to make sure no credentials leaked in moving from Private to Public visibility.
+
 ## Table of Contents
 - [*main.py*](main.py): main file to run, containing the graph
 - [*main.ipynb*](main.ipynb): if you want to run the code in a notebook.
