@@ -120,7 +120,7 @@ The system as designed as a Graph, using 4 different agents and 5 nodes.<br>
 You can find the agents mentioned below in [*Agents.py*](Agents/Agents.py), and the graph structure can be found here [*main.py*](main.py) or here [*main.ipynb*](main.ipynb) , whichever is preferred.
 
 Here is an example Agent Setup:
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory/blob/2a1461c2f137c0180aa5b326df9111f5e96303e8/Agents/Agents.py#L91-L106
+https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/2a1461c2f137c0180aa5b326df9111f5e96303e8/Agents/Agents.py#L91-L106
 
 1. The **Interrogator** agent, is the orchestrator of all executions, it decides when to start and end the interrogation based on meeting the criteria set in the instructions. He has 4 options, question prisoner 1 individually, question prisoner 2 individually, let both of the prisoners communicate before returning their response, or end the interrogation and send the contents tracked in the graph state to the summarizer to analyze the conversations.<br>
 2. **Prisoner 1** <br>   
@@ -139,7 +139,7 @@ https://github.com/gwils1414/Agentic-AI-with-Game-Theory/blob/2a1461c2f137c0180a
 <br>
 Each agent operated on a specific set of instructions found here, [*Instructions.py*](utilities/Instructions.py), below is a small snippet, not inclusive of the entire interrogator instruction set.
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory/blob/a613cf54dd55a5067e97bcf67873d9e2c1ad4f9b/utilities/Instructions.py#L53-L84
+https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/a613cf54dd55a5067e97bcf67873d9e2c1ad4f9b/utilities/Instructions.py#L53-L84
 
 NOTES:
 - Each prisoner must be questioned atleast once
@@ -157,7 +157,7 @@ The **state** of the graph is a very important concept to understand. Each node 
 
 When looking at the graph, you may notice that each node takes in a *GraphRunContext[State, Deps]* , and at each node, ChatState is passed in , and the function produces a new version of ChatState. Inside of the nodes, based on the nodes we update the attributes of ChatState. For example, the messages attribute tracks all of the models responses that happen in each individual model call, which is represented by something along the lines of *ctx.state.messages.append(output.new_messages())*.
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory/blob/8f627a9a9e9432595e65469e6e34deb3aa39174d/utilities/Types.py#L22-L45
+https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/8f627a9a9e9432595e65469e6e34deb3aa39174d/utilities/Types.py#L22-L45
 
 ## Types
 
@@ -165,7 +165,7 @@ I can not mention state management without mentioning **types** [*Types.py*](uti
 
 For this prisoner outputs, it is quite simple, we want their decision, and we want their reasoning, this restricts them from going off the rails and providing a response that breaks the graph. This helps us programmatically structure the game.
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory/blob/4e6952c3b2826c1c25491ea30f785a650d80f396/utilities/Types.py#L60-L62
+https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/4e6952c3b2826c1c25491ea30f785a650d80f396/utilities/Types.py#L60-L62
 
  
 ## Availabile Tools <br>
@@ -219,7 +219,7 @@ Based on [*evals.json*](Performance_Testing/evals.json) evaluated with [*evals_a
 
 See an example of an evals.json entry here:
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory/blob/ec044d0442ae8d1d1250587741705c477b6efdba/Performance_Testing/evals.json#L2-L73
+https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/ec044d0442ae8d1d1250587741705c477b6efdba/Performance_Testing/evals.json#L2-L73
 
 The system was ran 10 times, and tested based on the evaluations listed in the Evals section of this readme.
 
