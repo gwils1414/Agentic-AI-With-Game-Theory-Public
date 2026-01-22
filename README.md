@@ -120,7 +120,7 @@ The system as designed as a Graph, using 4 different agents and 5 nodes.<br>
 You can find the agents mentioned below in [*Agents.py*](Agents/Agents.py), and the graph structure can be found here [*main.py*](main.py) or here [*main.ipynb*](main.ipynb) , whichever is preferred.
 
 Here is an example Agent Setup:
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/2a1461c2f137c0180aa5b326df9111f5e96303e8/Agents/Agents.py#L91-L106
+https://github.com/gwils1414/Agentic-AI-With-Game-Theory-Public/blob/383d751cfcb87bef6a2f1fc21318137532969e59/Agents/Agents.py#L91-L106
 
 1. The **Interrogator** agent, is the orchestrator of all executions, it decides when to start and end the interrogation based on meeting the criteria set in the instructions. He has 4 options, question prisoner 1 individually, question prisoner 2 individually, let both of the prisoners communicate before returning their response, or end the interrogation and send the contents tracked in the graph state to the summarizer to analyze the conversations.<br>
 2. **Prisoner 1** <br>   
