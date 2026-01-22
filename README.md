@@ -165,9 +165,8 @@ I can not mention state management without mentioning **types** [*Types.py*](uti
 
 For this prisoner outputs, it is quite simple, we want their decision, and we want their reasoning, this restricts them from going off the rails and providing a response that breaks the graph. This helps us programmatically structure the game.
 
-https://github.com/gwils1414/Agentic-AI-with-Game-Theory-Public/blob/4e6952c3b2826c1c25491ea30f785a650d80f396/utilities/Types.py#L60-L62
+https://github.com/gwils1414/Agentic-AI-With-Game-Theory-Public/blob/1df3647fe3b2df64bf73329a6d01d08fc4ac3897/utilities/Types.py#L60-L62
 
- 
 ## Availabile Tools <br>
 
 All tools can be located here: [*MCP_Server.py*](MCP_Server.py)
